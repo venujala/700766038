@@ -1,0 +1,33 @@
+Q1. input = "google"
+resultant_string = input[0:3]+input[5]
+resultant_string[::-1]
+
+OUTPUT:eoog
+
+Q2. input_sentence = input("Enter a sentence: ")
+
+'''Below string method replace() is used to replace python with pythons'''
+modified_sentence = input_sentence.replace('python', 'pythons')
+
+print("Modified sentence:", modified_sentence)
+
+OUTPUT:
+Enter a sentence: I love python
+Modified sentence: I love pythons
+
+
+
+Q3.  marks = int(input("Enter your marks: "))
+if marks >=90:
+   print("your Grade is A")
+elif marks >=80:
+  print("your Grade is B")
+elif marks >=70:
+  print("your Grade is c")
+elif marks >=60:
+  print("your Grade is D")
+
+OUTPUT:
+Enter your marks: 76
+your Grade is c
+
