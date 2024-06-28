@@ -1,0 +1,78 @@
+Q1 
+   def fullname(first_name, last_name):
+    full_name = first_name + " " + last_name
+    return full_name
+
+def string_alternative(full_name):
+    # Extract every other character starting from index 0
+    alternate_chars = full_name[::2]
+    return alternate_chars
+
+if __name__ == "__main__":
+    # Input from user
+    first_name = input("Enter your first name: ")
+    last_name = input("Enter your last name: ")
+
+    # Get the full name
+    full_name = fullname(first_name, last_name)
+    print("Full Name:", full_name)
+
+    # Get every other character in the full name
+    alternate_string = string_alternative(full_name)
+    print("Alternate characters:", alternate_string)
+
+INPUT:  Good Evening
+OUTPUT: Go vnn
+
+Q2  
+ inp_file = open("/content/input.txt","r")
+out_file = open("/content/output.txt", "w")
+data = {}
+for i in inp_file:
+out_file.write(i)
+para_line = i.split()
+for j in para_lines:
+if j in data:
+data[j] += 1
+else:
+data[j] = 1
+out_file.write("\nmond Count: \n")
+for key, value in data.items():
+out_file.write('%s:%s:\n'%(key,value))
+inp_file.close()
+out_file.close()
+
+Input: 
+ a file includes two lines:
+Python Course
+Deep Learning Course
+Output:
+Python Course
+Deep Learning Course
+Word_Count:
+Python: 1
+Course: 2
+Deep: 1
+Learning: 1
+
+
+Q3
+  def InchtoCentimeters(value):
+return value*2.54
+cust_heights []
+centi_heights = []
+listelements int(input("Enter number of elements in the list: '))
+for i in range(listelements):
+element int(input("Enter the height: '))
+cust_heights.append(element)
+for ele in cust heights:
+value = int(ele)
+centi heights.append(InchtoCentimeters (value))
+print("Heights in centimeter: ", centi_heights)
+
+Enter number of elements in the list: 4
+Enter the height: 150
+Enter the height: 155
+Enter the height: 145
+Enter the height: 148
+Heights in centimeter: [381.0, 393.7, 368.3, 375.92]
