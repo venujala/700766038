@@ -25,4 +25,4 @@ videolink :https://drive.google.com/file/d/15ePWYI4miUqLnFJnlDQPg85CMAElSq3Z/vie
 ICP 6 :
 Venujala
 #700766038
-videolink:
+videolink:https://drive.google.com/file/d/1sKip9trLT9kUDs08HqwCteS5aetthjac/view?usp=sharing
